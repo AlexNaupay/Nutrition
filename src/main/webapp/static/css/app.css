@@ -51,9 +51,19 @@ footer.page-footer {
 
 
 /* =========================== CSS =========================== */
+@media only screen and (min-width : 600px) {
+    #form-button{
+        margin-bottom: -35px;
+    }
+}
 
-.nutrition-text{
-    color: #A5CD39 !important;
+
+#chart-content-material{
+    margin-bottom: 35px;
+}
+#form-button{
+    width: 100%;
+    color: #353535;
 }
 
 #reports-button{
@@ -69,6 +79,13 @@ footer.page-footer {
     position: relative;
 }
 
+.nutrition{
+    background-color: #A5CD39;
+}
+.nutrition-text{
+    color: #A5CD39 !important;
+}
+
 .parallax-container-large{
     height: 580px;
     padding-top: 35px;
@@ -82,4 +99,11 @@ footer.page-footer {
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.42);
+}
+
+.select-dropdown li img{
+    height: 30px;
+    margin: 10px 5px 15px 15px;
+    opacity: 0.6;
+    width: 40px;
 }

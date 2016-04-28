@@ -41,6 +41,5 @@
         <property name="password" value="${database.password}"/>
     </bean>
     <util:properties id="config" location="classpath:config.properties" />
-    <contex:property-placeholder properties-ref="config" />
-    -->
+    <contex:property-placeholder properties-ref="config" />-->
 </beans>
