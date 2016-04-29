@@ -19,6 +19,7 @@ Para lo cual se hace usao de la nube pública de [Openshift](https://www.openshi
     - Renombrar el archivo config.properties.example por config.properties
     - Coloque los parámetros según su configuración de BD.
     - Descomentar:
+        
         ```xml
             <bean id="dataSourceLocal" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
                     <property name="driverClassName" value="${database.driverClassName}"/>
