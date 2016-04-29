@@ -10,6 +10,7 @@
                     Este es un proyecto en el cual se pone en práctica el concepto de la nube (sistema distribuido),
                      como parte del curso de Sistemas Distribuidos en la EAP de Ingeniría de Sistemas de la
                     Universidad Nacional Mayor de San Marcos.
+                    <a href="https://github.com/AlexNaupay/Nutrition">Accede al código fuente.</a>
                     <%--We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.--%>
                 </p>
 
