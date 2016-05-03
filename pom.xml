@@ -54,6 +54,13 @@
             <version>${spring.version}</version>
         </dependency>
 
+        <!-- JSTL -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+
         <!-- JSON -->
         <!--<dependency>
             <groupId>org.codehaus.jackson</groupId>
