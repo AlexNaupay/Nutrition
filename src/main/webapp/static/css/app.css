@@ -107,3 +107,15 @@ footer.page-footer {
     opacity: 0.6;
     width: 40px;
 }
+
+.tabs{
+    margin-bottom: 30px;
+}
+
+.tabs .indicator{
+    background-color: #fbc02d;
+}
+
+.dropdown-content li > span{
+    color: #757575;
+}

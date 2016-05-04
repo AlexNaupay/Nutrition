@@ -1,5 +1,5 @@
 (function () {
 
-    google.charts.load('current', {'packages':['bar']});  // load chart bar type
+    google.charts.load('current', {'packages':['bar', 'table']});  // load chart bar type
     
 })();

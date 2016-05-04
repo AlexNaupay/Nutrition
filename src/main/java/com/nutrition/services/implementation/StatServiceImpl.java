@@ -18,6 +18,8 @@ public class StatServiceImpl implements StatService {
 
     @Override
     public List<Data> allData(String serie, ArrayList<String> countries) {
+        if (countries.size() < 1 || serie.isEmpty())
+            return null;
         return statRepository.allData(serie, countries);
     }
 }
