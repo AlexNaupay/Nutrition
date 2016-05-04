@@ -46,9 +46,9 @@
             <div class="col s12">
                 <ul class="tabs grey lighten-3">
                     <li class="tab col s12 m6"><a href="#stat-chart"
-                                                class="blue-grey-text text-darken-2">Gráfico de
+                                                class="blue-grey-text text-darken-2 active">Gráfico de
                         barras</a></li>
-                    <li class="tab col s12 m6"><a class="blue-grey-text text-darken-2  active" href="#stat-table">Tabla de
+                    <li class="tab col s12 m6"><a class="blue-grey-text text-darken-2" href="#stat-table">Tabla de
                         datos</a></li>
                 </ul>
             </div>
