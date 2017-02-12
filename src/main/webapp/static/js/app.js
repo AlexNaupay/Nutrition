@@ -1,6 +1,8 @@
 (function($){
     $(function(){
 
+        var baseUrl = $('#body-page').data('base_url');
+
         // materialize config
         $('.button-collapse').sideNav();
         $('.parallax').parallax();
@@ -15,7 +17,7 @@
             console.info("Enviar");
 
             var request = $.ajax({
-                url: '/statistics',
+                url: url('/statistics'),
                 method: 'POST',
                 contentType: "application/json",
                 data: JSON.stringify({
@@ -129,6 +131,11 @@
             }
         }
 
+
+        function url(relativeUrl) {
+            var fullUrl = baseUrl+relativeUrl;
+            return fullUrl.replace("//","/");
+        }
 
         // container
         var conatainer = $('.container');

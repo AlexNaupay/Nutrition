@@ -13,7 +13,7 @@
                 <h4 class="header col s12 light">Estadísticas de salud por el Banco Mundial</h4>
             </div>
             <div class="row center">
-                <a href="/statistics" id="reports-button"
+                <a href="<c:url value="/statistics"/>" id="reports-button"
                    class="btn-large waves-effect waves-light yellow darken-2">
                 <strong>Ver Reportes</strong>
                 </a>
