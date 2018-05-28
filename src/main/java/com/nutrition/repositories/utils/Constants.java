@@ -52,8 +52,8 @@ public class Constants {
     public static final String Y_ANIO= " AND y.codAnio ";
     public static final String ORDER_BY= " ORDER BY s.seriescode, y.codanio";
 
-    public static final String DATA_QUERY = "SELECT d.codAnio anio,d.countrycode, c.shortname, d.seriescode, s.indicatorname, d.value FROM nutrition.data d \n" +
-            "LEFT JOIN nutrition.year y ON d.codAnio = y.codAnio\n" +
+    public static final String DATA_QUERY = "SELECT d.codAnio anio,d.countrycode, c.shortname, d.seriescode, s.indicatorname, d.value FROM nutritiondb.data d \n" +
+            "LEFT JOIN nutritiondb.year y ON d.codAnio = y.codAnio\n" +
             "LEFT JOIN countryyseries cs ON d.countrycode = cs.countrycode AND d.seriescode = cs.seriescode\n" +
             "JOIN country c ON cs.countrycode = c.countrycode\n" +
             "JOIN series  s ON cs.seriescode = s.seriescode\n" +
